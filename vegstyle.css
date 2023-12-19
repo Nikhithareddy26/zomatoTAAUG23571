@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background: #f3f3f3;
+    font-family: 'poppins', sans-serif;
+}
+.menu{
+    padding: 0 10px 30px 10px;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap:20px 40px
+}
+.heading{
+    background:linear-gradient(to right, #FF8F8F, #EEF296, #FF8F8F, #7B66FF);
+   
+    color: #fff;
+    margin: bottom 30px;
+    padding: 30px 0;
+    grid-column: 1/-1;
+   text-align: center;
+
+}
+.heading:hover{
+    /*background: #630e0e;*/
+    background:linear-gradient(to right, #FF8F8F, #FF8F8F);
+   
+}
+.heading>h1{
+    font-weight: 400;
+    font-size:32px ;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.heading>h2{
+    
+    font-weight: 600;
+    font-size:22px ;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.navbar ul li{
+    display: inline-block;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 12px;
+    padding-bottom: 9px;
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color:  #7B66FF;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+  
+    font-size: 20px;
+    transition: 1s;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px #FF8080 inset;
+}
+.details-sub>h3{
+    padding-left: 185px;
+}
+.details-sub>h5{
+    padding-left: 210px;
+}
+.details>p{
+    padding-left: 120px;
+}
+.navbar1 ul li{
+  
+    background: #FF6969;
+    border: none;
+    color: linear-gradient(to right, #FF8F8F, #EEF296, #FF8F8F, #7B66FF);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 475px;
+    height: 50px;
+    cursor: pointer;
+    padding-left: 160px;
+    padding-right: 18px;
+    padding-top: 15px;
+    padding-bottom: 9px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.navbar1 ul li a{
+    text-decoration: none;
+    color:linear-gradient(to right, #FF8F8F, #EEF296, #FF8F8F, #7B66FF);
+  
+    font-size: 20px;
+    transition: 1s;
+}
+.navbar1 ul li:hover{
+    background: #D988B9;
+}
+
+.food-items{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+    
+}
+.food-items img{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 1px;
+    padding-bottom: 15px;
+    width: 90%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}

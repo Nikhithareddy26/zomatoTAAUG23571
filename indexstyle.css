@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: rgba(0,0,0,0.7) url('homeimage.webp') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-family: cursive;
+    color:rgb(236, 224, 224);
+    font-size: 120px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color:rgb(220, 206, 206);
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 1s;
+    font-size: 20px ;
+}
+.navbar ul li a img{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 2px;
+    transition: 1s;
+    font-size: 20px ;
+    height: 25px;
+  width: 25px;
+    border-radius: 50%;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px rgb(219, 212, 212) inset;
+}
+
+.content{
+    position: absolute;
+    color: #dbd4d4;
+    top: 40%;
+    left: 40%;
+}
+
+.content h2{
+    font-size: 70px;
+    padding-left:20px;
+   /* color:rgb(196, 132, 132);*/
+    color:white;
+ 
+ 
+}
+
+.content p{
+    text-align: center;
+    margin-top: 17px;
+    padding-right: 150px;
+    font-size: 19px;
+   /* color:rgb(196, 132, 132);*/
+    color:white;
+}
+
